@@ -1,23 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Computing Assignment</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #f4f4f9; direction: ltr; }
-        .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; text-align: left; min-width: 300px; }
-        h1 { color: #333; text-align: center; font-size: 24px; margin-bottom: 25px; }
-        p { font-size: 18px; color: #555; margin: 12px 0; }
-        strong { color: #222; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Assignment - Ghalia Albataineh</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 40px;
+            width: 90%;
+            max-width: 480px;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .info-pair {
+            margin-bottom: 18px;
+            line-height: 1.6;
+        }
+
+        .info-label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            color: #34495e;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        .info-value {
+            color: #555;
+            font-size: 16px;
+        }
+
+        .name, .id {
+            color: #2980b9;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Cloud Computing Project (PaaS)</h1>
-        <p><strong>Name:</strong>Ghaliya Ahmad Mohammad Albataineh</p>
-        <p><strong>Student ID:</strong> 202311825</p>
-        <p><strong>Major:</strong> Software Engineering</p>
-    </div>
+
+    <div class="project-card">
+        <h1>Cloud Computing Project (PaaS)</h1>
+
+        <div class="info-pair">
+            <span class="info-label">Name:</span>
+            <span class="info-value name">Ghaliya Ahmad Mohammad Albataineh</span>
+        </div>
+
+        <div class="info-pair">
+            <span class="info-label">Student ID:</span>
+            <span class="info-value id">202311825</span>
+        </div>
+
+        <div class="info-pair">
+            <span class="info-label">Major:</span>
+            <span class="info-value major">Software Engineering</span>
+        </div>
+
+        <div class="footer">Hosted on GitHub Pages</div>
+    </div>
+
 </body>
 </html>
